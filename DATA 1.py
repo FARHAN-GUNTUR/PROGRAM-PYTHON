@@ -58,7 +58,7 @@ while True:
     data_mahasiswa.append({'nama': nama, 'umur': umur, 'alamat': alamat})
     for index, mahasiswa in enumerate(data_mahasiswa):
         print(
-            f"{index+1}.Nama = {mahasiswa['nama']}\nUmur = {mahasiswa['umur']}\nAlamat = {mahasiswa['alamat']}")
+            f"Mahasiswa {index+1}\nNama = {mahasiswa['nama']}\nUmur = {mahasiswa['umur']}\nAlamat = {mahasiswa['alamat']}")
 
     lanjut = input("Mau Melanjutkan bro? (y/n) : ")
 
