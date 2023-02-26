@@ -1,10 +1,7 @@
 
-
-# Refactored code:
-
+# Refactored code: 
 for i in range(10, 0, -1):
-    print(" " * (i-1) + "*" * (10-i+1))
-for i in range(1, 11):
-    print(" " * (i-1) + "*" * (10-i+1))
-    
-# Explanation: The code has been refactored to make it more efficient. The first for loop has been changed to start at 10 instead of star and the second for loop has been changed to start at 1 instead of 0. This eliminates the need for the variable star and makes the code easier to read.
+  asterisk = "*" * i
+  print(asterisk)
+
+# The refactored code is more concise and efficient. The two for loops were combined into one loop, and the asterisk variable was changed to a multiplication of the value of i. This eliminates the need for an inner loop as well as the need to incrementally add asterisks to the asterisk variable.
