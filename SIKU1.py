@@ -9,6 +9,7 @@ for i in range(1, 10):
 print(spasi)
 
 # ! CARA 2
+# ? TIDAK DISARANKAN
 for i in range(1, 11):
     spasi = ""
     for j in range(0, i):
